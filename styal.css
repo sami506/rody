@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: black;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding: 10px 200px;
+}
+header a {
+  text-decoration: none;
+  padding: 10px;
+  color: whitesmoke;
+  font-weight: 700;
+  font-size: 1em;
+  padding-right: 30px;
+}
+.fa-house {
+  color: whitesmoke;
+  margin: 10px;
+}
+header a:hover {
+  color: aquamarine;
+}
+section {
+  padding: 100px 200px;
+}
+.min {
+  width: 74%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: url(imges/pexels-lukas-574069.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+ 
+
+}
+.min h2 {
+  color: #fff;
+  font-size: 1.4em;
+  font-weight: 500;
+}
+.min h2 span {
+  display: inline-block;
+  margin-top: 10px;
+  color: #b6ffce;
+  font-size: 3em;
+  font-weight: 700;
+}
+.min h3 {
+  color: #fff;
+  font-size: 1.8em;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.my-bot{
+  color: #fff;
+  background-color: #006778;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 600;
+  display: inline-block;
+  padding: 0.9375em 2.1875em;
+  letter-spacing: 1px;
+  border-radius: 50px;
+  margin-bottom: 40px;
+  transition: 0.7s ease;
+}
+.my-bot:hover{
+  background-color:#22577E ;
+  transform: scale(1.1);
+}
+.sosh a{
+color: #fff;
+font-size: 1.7em;
+padding-left: 30px;
+}
+.fad{
+ 
+  text-align: center;
+  margin-right: 700px;
+  margin-top: -200px;
+}
